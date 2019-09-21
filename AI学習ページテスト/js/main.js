@@ -32,7 +32,7 @@ window.onload = function() {
 };
 
 window.onbeforeunload = function() {
-    //webgazer.end(); //Uncomment if you want to save the data even if you reload the page.
+    webgazer.end(); 
     window.localStorage.clear(); //Comment out if you want to save data across different sessions
 }
 
